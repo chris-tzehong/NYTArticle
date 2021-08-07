@@ -1,7 +1,10 @@
-package com.example.nytarticle
+package com.example.nytarticle.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.nytarticle.ListedArticle
+import com.example.nytarticle.SearchedArticle
+import com.example.nytarticle.repository.ArticleListRepository
 
 class ArticleListViewModel: ViewModel() {
 

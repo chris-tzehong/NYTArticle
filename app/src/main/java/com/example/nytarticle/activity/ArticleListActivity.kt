@@ -1,15 +1,18 @@
-package com.example.nytarticle
+package com.example.nytarticle.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.nytarticle.*
+import com.example.nytarticle.adapter.ArticleAdapter
 import com.example.nytarticle.databinding.ActivityArticleListBinding
+import com.example.nytarticle.utils.IntentType
+import com.example.nytarticle.utils.RetrofitClient
+import com.example.nytarticle.viewmodel.ArticleListViewModel
 
 class ArticleListActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.example.nytarticle
+package com.example.nytarticle.utils
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

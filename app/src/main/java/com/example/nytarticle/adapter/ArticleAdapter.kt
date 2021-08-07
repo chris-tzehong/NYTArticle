@@ -1,8 +1,9 @@
-package com.example.nytarticle
+package com.example.nytarticle.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.nytarticle.Result
 import com.example.nytarticle.databinding.ArticleViewholderBinding
 
 class ArticleAdapter(private val articleList: List<Result>): RecyclerView.Adapter<ArticleAdapter.ArticleViewHolder>() {

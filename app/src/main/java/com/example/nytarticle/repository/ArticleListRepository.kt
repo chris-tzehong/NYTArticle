@@ -1,7 +1,10 @@
-package com.example.nytarticle
+package com.example.nytarticle.repository
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
+import com.example.nytarticle.ListedArticle
+import com.example.nytarticle.SearchedArticle
+import com.example.nytarticle.utils.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

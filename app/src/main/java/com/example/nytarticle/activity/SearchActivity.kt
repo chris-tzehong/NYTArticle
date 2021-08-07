@@ -1,9 +1,10 @@
-package com.example.nytarticle
+package com.example.nytarticle.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.SearchView
+import com.example.nytarticle.utils.IntentType
+import com.example.nytarticle.R
 import com.example.nytarticle.databinding.ActivitySearchBinding
 
 class SearchActivity : AppCompatActivity() {

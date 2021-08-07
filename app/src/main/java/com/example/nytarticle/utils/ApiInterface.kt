@@ -1,5 +1,7 @@
-package com.example.nytarticle
+package com.example.nytarticle.utils
 
+import com.example.nytarticle.ListedArticle
+import com.example.nytarticle.SearchedArticle
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

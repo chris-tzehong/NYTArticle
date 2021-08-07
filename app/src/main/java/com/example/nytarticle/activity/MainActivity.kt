@@ -1,10 +1,9 @@
-package com.example.nytarticle
+package com.example.nytarticle.activity
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.ViewModelProvider
+import com.example.nytarticle.utils.IntentType
 import com.example.nytarticle.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
